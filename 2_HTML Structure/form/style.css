@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Lily+Script+One);
+
+form {
+    width: 400px;
+    margin: auto;
+}
+
+h3 {
+    color: grey;
+    font-family: Lily Script One;
+    text-align: center;
+    font-size: 70px;
+}
+
+h3:hover {
+    color: cornflowerblue;
+}
+
+label, a {
+    display: block;
+    padding-bottom: 1.0em;
+    cursor: pointer;
+}
+
+label {
+    color: darkgray;
+    font-size: 14px;
+}
+
+a {
+    color: cornflowerblue;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    display: block;
+    border-radius: 1.0em;
+    padding: 0.5em 0.5em;
+    margin-bottom: 1.0em;
+    border:1px solid #bbb;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+}
+
+form input[type=text]:focus,
+form input[type="password"]:focus {
+    outline-color: cornflowerblue;
+}
+
+input[type="submit"]{
+    width: 100px;
+    float:right;
+    background-color: #1abc9c;
+    border: 1px solid #1abc9c;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    opacity:0.8;
+}
+
+a:hover {
+	color:darkgray;
+}
